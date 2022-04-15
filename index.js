@@ -12,7 +12,7 @@ const client = new Client({
   password: "deb0c16207eb6679f5a1d0f7709b2f7db58fe7c3d8b0b560c2652c25e67ee6a9"
 })
 
-client.connec();
+client.connect();
 
 client.query(`SELECT NOW()`, (err, res) => {
   console.log(err,res);
