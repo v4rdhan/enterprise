@@ -2,7 +2,7 @@
 
 console.log(`Hello Node.js v${process.versions.node}!`);
 
-const {Client} = required('pg')
+const {Client} = require('pg')
 
 const client = new Client({
   host: "ec2-34-197-84-74.compute-1.amazonaws.com",
